@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container{
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 100px;
+    width: 80%;
+    height: 70vh;
+    justify-content: center;
+    background-color: gray;
+    padding: 23px;
+    overflow: auto;
+}
+
+
+.mod{
+    padding: 20px;
+    width: 80%;
+    border: 1px solid rgb(52, 29, 52);
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.flexing{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mod button{
+    margin-right: 20px;
+    width: 100px;
+    height: 20px;
+}
